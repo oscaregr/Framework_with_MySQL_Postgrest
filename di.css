@@ -1,0 +1,73 @@
+body{
+    height: 600px;
+    width: 1315px;
+}
+
+/*unicamente el encavesado*/
+.encavesado{
+    /*width: 300px;*/
+    height: 25px;
+    background-color:#ABE5F2;
+    margin: auto;
+    margin-top: 0px;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+/*el tree*/
+.Tree1{
+    width: 200px;
+    background-color: blueviolet;
+    float: left; 
+    /*height: 400px;*/
+    margin: auto;
+    margin-top:10px;
+    margin-left: 10px;
+    padding: 20px;
+
+  
+}
+/*la consola*/
+.consola{
+   
+    float: left;
+    height:550px;
+    width: 800px;
+  
+    margin:15px;
+    
+}
+#consola1{
+    background-color: white;
+    height: 350px;
+
+}
+#con{
+    width: 800px;
+    height: 300px;
+   
+}
+#resultado{
+    background-color:black;
+    height: 200px;
+    overflow: auto;
+    text-decoration-color: white;
+    color:white;
+}
+
+
+
+/*las opciones*/
+.opciones{
+    width: 150px;
+    float: right; 
+    /*height: 400px;*/
+    margin: auto;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    background-color:darkblue;
+    
+}
