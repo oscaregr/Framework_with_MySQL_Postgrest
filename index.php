@@ -44,13 +44,13 @@
                             $_COOKIE['Po']=$Po;*/
 
                            
-                            setcookie("p1", $p1, time()+3600, "/", "localhost");
-                            setcookie("u1", $u1, time()+3600, "/", "localhost");
-                            setcookie("Po", $Po, time()+3600, "/", "localhost");
-                            setcookie("p2", $p2, time()+3600, "/", "localhost");
-                            setcookie("u2", $u2, time()+3600, "/", "localhost");
-                            setcookie("c2", $c2, time()+3600, "/", "localhost");
-                            setcookie("My", $My, time()+3600, "/", "localhost");
+                            setcookie("p1", $p1, time()+1800, "/", "localhost");
+                            setcookie("u1", $u1, time()+1800, "/", "localhost");
+                            setcookie("Po", $Po, time()+1800, "/", "localhost");
+                            setcookie("p2", $p2, time()+1800, "/", "localhost");
+                            setcookie("u2", $u2, time()+1800, "/", "localhost");
+                            setcookie("c2", $c2, time()+1800, "/", "localhost");
+                            setcookie("My", $My, time()+1800, "/", "localhost");
                            
                         }else{$arr = false;}
                         
@@ -67,17 +67,17 @@
                                /* $_COOKIE['My']=$My;
                                 $_COOKIE['p1']=$p1;
                                 $_COOKIE['u1']=$u1;*/
-                                setcookie("My", $My, time()+3600, "/", "localhost");
-                                setcookie("p1", $p1, time()+3600, "/", "localhost");
-                                setcookie("u1", $u1, time()+3600, "/", "localhost");
+                                setcookie("My", $My, time()+1800, "/", "localhost");
+                                setcookie("p1", $p1, time()+1800, "/", "localhost");
+                                setcookie("u1", $u1, time()+1800, "/", "localhost");
 
 
                                 ////eliminados
-                              /*
-                                setcookie("p2", $p2, time()-3600, "/", "localhost");
-                                setcookie("u2", $u2, time()-3600, "/", "localhost");
-                                setcookie("c2", $c2, time()-3600, "/", "localhost");
-                                setcookie("Po", $Po, time()-3600, "/", "localhost");*/
+                              
+                                setcookie("p2", '', time()+1800, "/", "localhost");
+                                setcookie("u2", '', time()+1800, "/", "localhost");
+                                setcookie("c2", '', time()+1800, "/", "localhost");
+                                setcookie("Po", '', time()+1800, "/", "localhost");
                             }else{$a = false;}
                         }
                     }
@@ -92,16 +92,16 @@
                                 $_COOKIE['p2']=$p2;
                                 $_COOKIE['u2']=$u2;
                                 $_COOKIE['c2']=$c2;*/
-                                setcookie("Po", $Po, time()+3600, "/", "localhost");
-                                setcookie("p2", $p2, time()+3600, "/", "localhost");
-                                setcookie("u2", $u2, time()+3600, "/", "localhost");
-                                setcookie("c2", $c2, time()+3600, "/", "localhost");
+                                setcookie("Po", $Po, time()+1800, "/", "localhost");
+                                setcookie("p2", $p2, time()+1800, "/", "localhost");
+                                setcookie("u2", $u2, time()+1800, "/", "localhost");
+                                setcookie("c2", $c2, time()+1800, "/", "localhost");
 
                                 ////eliminados
                                
-                                /*setcookie("p1", $p1, time()-3600, "/", "localhost");
-                                setcookie("u1", $u1, time()-3600, "/", "localhost");
-                                setcookie("My", $My, time()-3600, "/", "localhost");*/
+                                setcookie("p1", '', time()+1800, "/", "localhost");
+                                setcookie("u1", '', time()+1800, "/", "localhost");
+                                setcookie("My", '', time()+1800, "/", "localhost");
 
                             }else{$a=false;}
                         }
