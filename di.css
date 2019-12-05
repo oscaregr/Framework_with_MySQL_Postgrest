@@ -41,6 +41,8 @@ body{
 #consola1{
     background-color: white;
     height: 350px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 
 }
 #con{
